@@ -32,7 +32,7 @@ require_once "koneksi.php"; //Require_once untuk menyertakan sebuah file PHP ked
       {
          $data[] = $row;
       }            
-      echo json_encode($data);
+      
       if($data)
       {
       $response = array(
